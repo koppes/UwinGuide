@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/projectbg">
+    
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="quiz"
+                android:text="Start!" />
+
+            <Button
+                android:id="@+id/MapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="map"
+                android:text="Map Tool" />
+            
+            <Button
+                android:id="@+id/FeedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="feed"
+                android:text="News Feed" />
+
+            <Button
+                android:id="@+id/HelpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="help"
+                android:text="Help Page" />
+            </TableRow>
+
+    </TableLayout>
+    
+    <WebView android:id="@+id/webview" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    
+
+</LinearLayout>

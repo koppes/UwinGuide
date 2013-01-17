@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    <CheckBox
+        android:id="@+id/CheckBox1"
+        android:layout_width="216dp"
+        android:layout_height="30dp"
+        android:text="Residence Halls" />
+        
+
+    <CheckBox
+        android:id="@+id/CheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Academic Halls" />
+        
+    <CheckBox
+        android:id="@+id/CheckBox3"
+        android:layout_width="216dp"
+        android:layout_height="30dp"
+        android:text="Libraries" />
+        
+    <CheckBox
+        android:id="@+id/CheckBox4"
+        android:layout_width="216dp"
+        android:layout_height="30dp"
+        android:text="University Services" />
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="quiz"
+                android:text="Start!" />
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="help"
+                android:text="Help" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
